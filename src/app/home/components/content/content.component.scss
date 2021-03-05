@@ -1,0 +1,37 @@
+@import '../../../styles/variables';
+
+.content {
+
+  margin: 0;
+  padding: 2% 2%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+}
+
+.post {
+  margin: 0 1% 3% 1%;
+  width: 31%;
+  min-width: 250px;
+  height: 400px;
+  background: grey;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.32);
+
+  @media (max-width:$breakpoint-iPad) {
+    width: 45%;
+  }
+  @media (max-width:$breakpoint-iPad) {
+    width: 100%;
+    margin: 5%;
+  }
+
+}
+
+.post:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.32);
+
+}
+

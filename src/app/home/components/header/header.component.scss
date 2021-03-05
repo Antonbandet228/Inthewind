@@ -1,0 +1,43 @@
+@import '../../../styles/variables';
+
+
+.header{
+  display: flex;
+  padding: 0 3%;
+  margin: 0;
+  background: $color-yellow;
+  height: 75px;
+  box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.32);
+  justify-content: space-between;
+  align-items: center;
+}
+.item{
+  width:105px;
+  height: 20px;
+  background: white;
+}
+.logo{
+  border-radius:50% ;
+  width: 50px;
+  height: 50px;
+  background-image:url("../../../../assets/images/img.png");
+}
+input{
+  width: 300px;
+  font-size: 13px;
+  padding: 6px 0 4px 10px;
+  border: 1px solid #cecece;
+  background: #F6F6f6;
+  @media (max-width:$breakpoint-iPad) {
+    width: 150px;
+    margin: 5%;
+  }
+}
+
+button{
+  height: 40px;
+  outline: none;
+  width: 100px;
+  border: 1px $color-grey;
+}
+
