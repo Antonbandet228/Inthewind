@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 
+
 @Component({
   selector: 'app-content',
   templateUrl: './content.component.html',
@@ -8,7 +9,7 @@ import {Component, OnInit} from '@angular/core';
 export class ContentComponent implements OnInit {
   posts = [{id: 0, text: 'text o'}, {id: 1, text: 'text 1'}, {id: 2, text: 'text 2'}, {id: 3, text: 'text 3'}];
 
-  constructor() {
+ constructor() {
   }
 
   ngOnInit(): void {
